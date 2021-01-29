@@ -30,7 +30,7 @@ app.disable('x-powered-by')
 
 app.get('/', (req, res) => {
     res.render('home', {
-        title: "Cendek"
+        title: "Short My Link"
     });
 })
 
